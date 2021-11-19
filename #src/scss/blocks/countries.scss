@@ -1,0 +1,49 @@
+.countries {
+    padding: 82px 0 103px 0;
+    background: #fafafa;
+    
+
+    .countries__container {
+        max-width: 1290px;
+        margin: 0 auto;
+    }
+
+    .swiper-container {
+        padding-bottom: 70px;
+    }
+
+
+    .title-sub {
+        margin-bottom: 77px;
+    }
+
+    .card {
+        max-width: 350px;
+        margin: 0 25px;
+
+        img {
+            border-radius: 29px;
+        }
+        .card__title {
+            font-family: Metropolis;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 25px;
+            line-height: 25px;
+
+            color: #37474f;
+
+            margin: 27px 0 15px 0;
+        }
+
+        .card__text {
+            font-family: Metropolis;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 27px;
+
+            color: #37474fb8;
+        }
+    }
+}

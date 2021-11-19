@@ -1,0 +1,22 @@
+.date {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: Metropolis-SemiBold;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    color: #565656;
+
+    &::before {
+        content: "";
+        background-image: url(../images/modules/date/icon-date.svg);
+        background-size: 16px 16px;
+        background-position: center;
+        display: block;
+        width: 16px;
+        height: 16px;
+        margin-right: 15px;
+    }
+}

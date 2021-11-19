@@ -1,0 +1,73 @@
+.testimonial {
+    padding: 115px 0 100px 0;
+    max-width: 1290px;
+    margin: 0 auto;
+
+    .title-sub {
+        margin-bottom: 142px;
+    }
+
+    .swiper-container {
+        padding-bottom: 110px;
+    }
+
+    .card {
+        border-radius: 29px;
+        box-shadow: 0px 0px 77px #0000000f;
+        padding: 32px 34px 30px 34px;
+        max-width: 500px;
+        max-height: 330px;
+        overflow: hidden;
+
+        .card__header {
+            display: flex;
+            flex-direction: row;
+            margin-bottom: 30px;
+
+            img {
+                width: 62px;
+                height: 62px;
+                border-radius: 12px;
+
+                margin-right: 28px;
+            }
+        }
+        .card__info {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+
+            .card__title {
+                font-family: Metropolis;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 22px;
+                line-height: 22px;
+
+                color: #37474f;
+            }
+
+            .card__subtitle {
+                font-family: Metropolis;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 18px;
+
+                color: #37474f;
+
+                opacity: 0.65;
+            }
+        }
+
+        .card__text {
+            font-family: Metropolis;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 31px;
+
+            color: rgba(55, 71, 79, 0.721569);
+        }
+    }
+}

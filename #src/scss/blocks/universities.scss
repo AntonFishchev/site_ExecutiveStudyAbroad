@@ -1,0 +1,36 @@
+.universities {
+    text-align: center;
+    background: #fafafa;
+
+    padding: 55px 0 55px 0;
+}
+
+.universities-slider {
+    padding: 30px 0 70px 0;
+    max-width: 1440px;
+}
+
+.universities__title {
+    font-family: Metropolis;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 23px;
+
+    text-align: center;
+    letter-spacing: 2.1px;
+    text-transform: uppercase;
+
+    color: #373737;
+
+    padding: 0 0 90px 0;
+}
+
+.universities-slider__image {
+    text-align: center;
+
+    img {
+        max-width: 100%;
+        padding-bottom: 104px;
+    }
+}

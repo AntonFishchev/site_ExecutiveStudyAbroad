@@ -1,0 +1,28 @@
+.learn-more {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    cursor: pointer;
+
+    p {
+        font-family: Metropolis-Bold;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 17px;
+        line-height: 17px;
+
+        color: #717cff;
+    }
+
+    &::after {
+        content: "";
+        background-image: url(../images/modules/learn-more/arrow.svg);
+        background-position: center;
+        display: block;
+        margin-left: 13px;
+
+        width: 20px;
+        height: 20px;
+    }
+}
