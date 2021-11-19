@@ -1002,7 +1002,7 @@ body ._lock {
     position: relative;
     overflow-y: hidden;
     height: 100%;
-    margin-top: 16px;
+    margin-top: 23px;
   }
 
   .menu .menu__link::after {
