@@ -2,6 +2,8 @@
  
  САЙТ - <https://antonfishchev.github.io/executive/>
  
+ МАКЕТ - <https://www.figma.com/file/IABCP5CMXxZf1fWDLXYATh/3?node-id=0%3A2>
+ 
  Проект обучающий, выполнил Фищев Антон.
  
  Сайт является полностью адаптивным. 
